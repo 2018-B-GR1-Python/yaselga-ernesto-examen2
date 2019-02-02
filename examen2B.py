@@ -128,4 +128,4 @@ df11 = pd.DataFrame(np.random.randint(1, 10, 20).reshape(-1, 1), columns=['col2'
 df11['col1']=col1[0]
 print("\n P11")
 
-print(df11)
+print(df11.groupby('col1'))
